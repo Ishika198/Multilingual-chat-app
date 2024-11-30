@@ -60,7 +60,10 @@ function App() {
       ) : (
         <div className="chatContainer">
           {/* Left Section: Reserved for recent chats */}
-          <div className="leftSection">
+            <div className="leftSection">
+            <div className="recent-chat-header">
+              <h4>{username}</h4> {/* Display user's name at the top */}
+            </div>
             <p>Recent Chats (coming soon)</p>
           </div>
 
